@@ -18,8 +18,7 @@ $ sudo apt-get install git
 
 The next set of commands will create an **odoo** user:
 ```
-# useradd -m -g sudo -s /bin/bash odoo # Create an 'odoo' user with sudo
-powers
+# useradd -m -g sudo -s /bin/bash odoo # Create an 'odoo' user with sudo powers
 # passwd odoo # Ask and set a password for the new user
 ```
 
@@ -47,7 +46,6 @@ $ pip3 install Babel decorator docutils ebaysdk feedparser gevent greenlet html2
 $ sudo apt-get install -y npm
 $ sudo ln -s /usr/bin/nodejs /usr/bin/node
 $ sudo npm install -g less less-plugin-clean-css
-$ sudo apt-get install node-less
 $ sudo apt-get install node-less
 $ sudo python3 -m pip install libsass
 ```
@@ -117,8 +115,7 @@ $ exit
 ```
 $ mkdir ~/odoo-dev # Create a directory to work in
 $ cd ~/odoo-dev # Go into our work directory
-$ git clone https://github.com/odoo/odoo.git -b 12.0 --depth=1 # Get Odoo
-source code
+$ git clone https://github.com/odoo/odoo.git -b 12.0 --depth=1 # Get Odoo source code
 ```
 
 ### Create Odoo Log File
