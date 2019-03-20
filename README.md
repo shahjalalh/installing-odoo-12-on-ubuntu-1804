@@ -131,7 +131,7 @@ $ sudo chown -R odoo:root /var/log/odoo
 $ sudo nano /etc/odoo.conf
 ```
 
-Copy and paste below content in config file , **write correct addons paths**
+Copy and paste below content in config file, **write correct addons paths**
 
 ```
 [options]
