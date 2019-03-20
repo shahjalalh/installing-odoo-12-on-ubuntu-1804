@@ -18,8 +18,8 @@ $ sudo apt-get install git
 
 The next set of commands will create an **odoo** user:
 ```
-# useradd -m -g sudo -s /bin/bash odoo # Create an 'odoo' user with sudo powers
-# passwd odoo # Ask and set a password for the new user
+# sudo useradd -m -g sudo -s /bin/bash odoo # Create an 'odoo' user with sudo powers
+# sudo passwd odoo # Ask and set a password for the new user
 ```
 
 Now we can log in as the new user and set up Odoo.
@@ -58,8 +58,10 @@ $ sudo nano /etc/apt/sources.list.d/pgdg.list
 
 Add a line for the repository
 ```
-$ deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
-$
+deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
+```
+
+```
 $ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 $
 $ sudo apt-get update
