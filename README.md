@@ -84,6 +84,14 @@ postgres=# SELECT rolname FROM pg_roles;
 postgres=# \l
 ```
 
+Change **postgres** user default password
+```
+postgres=# \password
+Enter new password:
+Enter it again:
+postgres=#
+```
+
 Delete databases (optional)
 ```
 postgres=# DROP DATABASE target_database;
@@ -93,6 +101,12 @@ Quit from PostgreSQL database console
 ```
 postgres=# \q
 ```
+
+Install pgadmin3
+```
+$ sudo apt-get install pgadmin3
+```
+<img src="./images/pgadmin3-connection.png" />
 
 ### Install Gdata
 ```
